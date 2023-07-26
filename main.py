@@ -30,7 +30,7 @@ async def help(ctx):
     options=[
         create_option(
             name="type",
-            description="The type of chat (clone or normal)",
+            description="The type of chatbot (clone or normal)",
             option_type=3,
             required=True
         ),
